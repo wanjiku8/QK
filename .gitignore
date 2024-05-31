@@ -45,3 +45,22 @@ vendor/
 .envrc
 
 # Ignore any other sensitive or unnecessary files
+
+
+# WordPress Core
+/wordpress/
+
+# Logs
+/logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+wp-config.php
+
+# Plugins and Themes
+wp-content/plugins/
+wp-content/themes/
